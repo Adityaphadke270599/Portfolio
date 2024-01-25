@@ -1,10 +1,25 @@
-import React from 'react';
-
+import React from "react";
+import { Navbar } from "./components/export";
+import {
+  About,
+  Footer,
+  Header,
+  Skills,
+  Testimonial,
+  Work,
+} from "./container/index";
 const App = () => {
   return (
-    <div>
-        <h1>App</h1></div>
+    <div className="app">
+      <Navbar />
+      <Header />
+      <About />
+      <Skills />
+      <Testimonial />
+      <Work />
+      <Footer />
+    </div>
   );
-}
+};
 
 export default App;

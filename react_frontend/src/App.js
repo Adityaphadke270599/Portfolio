@@ -8,6 +8,7 @@ import {
   Testimonial,
   Work,
 } from "./container/index";
+import "./App.scss";
 const App = () => {
   return (
     <div className="app">

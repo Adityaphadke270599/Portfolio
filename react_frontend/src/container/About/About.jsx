@@ -30,16 +30,19 @@ const About = () => {
     <>
       <h2 className="head-text">
         I Know That
+        <br />
         <span>Good Problem Articulation</span>
         <br />
-        &
+        +
         <br />
         <span>Good Solution Ideation</span>
         <br />
-        &
+        +
         <br />
         <span>Good Design</span>
-        means
+        <br />
+        =
+        <br />
         <span>Good Business</span>
       </h2>
       <div className="app__profiles">

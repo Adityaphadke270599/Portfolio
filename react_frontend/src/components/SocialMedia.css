@@ -1,0 +1,37 @@
+/* SocialMedia.css */
+
+.app__social {
+    display: flex;
+    gap: 16px; /* Adjust the gap between icons */
+  }
+  
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Add a background color to the icons */
+    padding: 8px; /* Add padding to the icons */
+    border-radius: 50%; /* Make the icons circular */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .social-icon:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+  }
+  
+  .icon {
+    font-size: 2em;
+    color: #333; /* Set the color of the icons */
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  

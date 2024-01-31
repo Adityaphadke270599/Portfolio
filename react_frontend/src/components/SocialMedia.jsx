@@ -1,18 +1,27 @@
 import React from "react";
-import { BsTwitter, BsInstagram } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import "./SocialMedia.css"; // Import your CSS file for styling
 
 const SocialMedia = () => (
   <div className="app__social">
-    <div>
-      <BsTwitter />
-    </div>
-    <div>
-      <FaFacebookF />
-    </div>
-    <div>
-      <BsInstagram />
-    </div>
+    <a
+      href="https://github.com/Adityaphadke270599"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="social-icon"
+    >
+      <BsGithub className="icon" />
+      <span className="visually-hidden">GitHub</span>
+    </a>
+    <a
+      href="https://www.linkedin.com/in/aditya-phadke-bangalore/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="social-icon"
+    >
+      <BsLinkedin className="icon" />
+      <span className="visually-hidden">LinkedIn</span>
+    </a>
   </div>
 );
 
